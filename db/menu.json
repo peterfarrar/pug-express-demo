@@ -1,0 +1,449 @@
+{
+  "meals": [
+    {
+      "meal": "Lunch",
+      "courses": [
+        {
+          "course": "Small plates",
+          "items": [
+            {
+              "item": "Sriracha Deviled Eggs",
+              "description": "Crispy Bacon",
+              "price": "$5.00"
+            },
+            {
+              "item": "Spicy Chicken Eggroll",
+              "description": "Peppers and Onions, American Cheese, Spicy Aioli",
+              "price": "$9.00"
+            },
+            {
+              "item": "Halloumi Fries",
+              "description": "Chipotle Tomato Jam",
+              "price": "$9.00"
+            },
+            {
+              "item": "Crispy Soy Ginger Pork Belly",
+              "description": "Miso Aioli, Crushed Wasabi Peas",
+              "price": "$10.00"
+            },
+            {
+              "item": "Chicken & Roasted Jalapeño Rangoons",
+              "description": "Sweet Chili",
+              "price": "$10.00"
+            }
+          ]
+        },
+        {
+          "course": "Appetizers",
+          "items": [
+            {
+              "item": "Sautéed Mussels",
+              "description": "Shaved White Onion, Jalapeño, Cilantro, Roasted Garlic & Tomato Crostini",
+              "price": "$15.00"
+            },
+            {
+              "item": "Black Kale & Brussel Sprout Salad",
+              "description": "Crispy Bacon, Toasted Pepitas, Avocado, Fried Duck Egg",
+              "price": "$15.00"
+            },
+            {
+              "item": "Organic Local Greens",
+              "description": "Cranberries, Bleu, Baby Heirloom Tomatoes, Crispy Applewood Smoked Bacon, House-Made Buttermilk Ranch",
+              "price": "$13.00",
+              "addons": [
+                {
+                  "addon": "Grilled Organic Chicken Breast",
+                  "price": "$5.00"
+                }
+              ]
+            },
+            {
+              "item": "Charred Caesar Salad",
+              "description": "Croutons, White Anchovies",
+              "price": "$13.00",
+              "addons": [
+                {
+                  "addon": "Grilled Organic Chicken Breast",
+                  "price": "$5.00"
+                }
+              ]
+            },
+            {
+              "item": "Chicken Wings",
+              "description": "House-Made Hot Sauce, Blue Cheese",
+              "price": "$13.00"
+            }
+          ]
+        },
+        {
+          "course": "Entrees",
+          "items": [
+            {
+              "item": "Today's Grilled Pizza",
+              "description": "Pepperoni, Baby Heirloom Tomatoes, Goat Cheese, House-Made Hot Honey",
+              "price": "$15.00"
+            },
+            {
+              "item": "Spicy Tomato Bisque",
+              "description": "Grilled Cheese Panini",
+              "price": "$13.00"
+            },
+            {
+              "item": "8 oz. Grass-Fed Burger",
+              "description": "Swiss, Blue, Vermont Cheddar, Hand-Cut French Fries",
+              "price": "$6.00",
+              "addons": [
+                {
+                  "addon": "Fired Organic Duck Egg",
+                  "price": "$3.00"
+                },
+                {
+                  "addon": "Applewood Smoked Bacon",
+                  "price": "$2.00"
+                }
+              ]
+            },
+            {
+              "item": "Pressed Italian",
+              "description": "Genoa Salami, Capicola, Soppressata, Roasted Red Pepper Relish, Creamy Hot Dijon, Hand-Cut Fries",
+              "price": "$18.00"
+            },
+            {
+              "item": "Grilled Organic Chicken Sandwich",
+              "description": "Vermont Cheddar, Roasted Garlic Mayo, Hand-Cut French Fries",
+              "price": "$16.00",
+              "addons": [
+                {
+                  "addon": "Fired Organic Duck Egg",
+                  "price": "$3.00"
+                },
+                {
+                  "addon": "Applewood Smoked Bacon",
+                  "price": "$2.00"
+                }
+              ]
+            },
+            {
+              "item": "Cuban Panini",
+              "description": "Braised Pork, Ham, Pickles, Swiss, Mustard, Hand-Cut French Fries",
+              "price": "$18.00"
+            },
+            {
+              "item": "Hand-Made Crispy Chive Gnocchi",
+              "description": "Asparagus, English Peas, Meyer Lemon Crème, Fresh Basil, Herbed Panko, Pecorino",
+              "price": "$23.00"
+            },
+            {
+              "item": "Bison Bolognese",
+              "description": "Pecorino Cheese, Aged Balsamic, Fresh Linguine",
+              "price": "$24.00"
+            },
+            {
+              "item": "Pan-Seared Faroe Island Salmon",
+              "description": "Shaved Snap Peas, Coconut & Lemongrass Risotto, Sesame Ginger Vinaigrette",
+              "price": "$28.00"
+            },
+            {
+              "item": "Pan Roasted Cod",
+              "description": "Potato Scallion Pancake, Shallot Cream Sauce",
+              "price": "$28.00"
+            },
+            {
+              "item": "Organic Grass-Fed Hanger Steak Frites",
+              "description": "Watercress, Madeira Sauce",
+              "price": "$29.00"
+            },
+            {
+              "item": "Kid’s Grilled Cheese",
+              "description": "Hand-Cut French Fries",
+              "price": "$10.00"
+            },
+            {
+              "item": "Kid’s Cheese Pizza",
+              "description": "",
+              "price": "$12.00"
+            },
+            {
+              "item": "Kid’s Pasta",
+              "description": "Red Sauce or Butter & Cheese",
+              "price": "$10.00"
+            }
+          ]
+        },
+        {
+          "course": "Sides",
+          "items": [
+            {
+              "item": "Hand-Cut Truffle Fries",
+              "description": "Roasted Garlic Mayo",
+              "price": "$9.00"
+            },
+            {
+              "item": "Hand-Cut French Fries",
+              "description": "",
+              "price": "$8.00"
+            },
+            {
+              "item": "Shredded Brussel Sprouts",
+              "description": "",
+              "price": "$8.00"
+            },
+            {
+              "item": "Pan Roasted Cauliflower",
+              "description": "Capers",
+              "price": "$8.00"
+            },
+            {
+              "item": "Coconut & Lemongrass Risotto",
+              "description": "Snap Peas",
+              "price": "$9.00"
+            },
+            {
+              "item": "Organic Local Greens",
+              "description": "Pepitas, Dill Ranch",
+              "price": "$9.00"
+            }
+          ]
+        },
+        {
+          "course": "Today's Specials",
+          "items": [
+            {
+              "item": "Local Ricotta, Grilled Corn & Hot Italian Sausage Croquettes",
+              "description": "House-Made Hot Honey",
+              "price": "$10.00"
+            },
+            {
+              "item": "Chipotle Pulled Chicken Enchiladas",
+              "description": "Spicy Roja Sauce, Tomatillo Verde, Fresh Arugula & Pickled Red Onion Salad, Roasted Pepitas, Queso Fresco",
+              "price": "$23.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meal": "Dinner",
+      "courses": [
+        {
+          "course": "Small plates",
+          "items": [
+            {
+              "item": "Sriracha Deviled Eggs",
+              "description": "Crispy Bacon",
+              "price": "$5.00"
+            },
+            {
+              "item": "Spicy Chicken Eggroll",
+              "description": "Peppers and Onions, American Cheese, Spicy Aioli",
+              "price": "$9.00"
+            },
+            {
+              "item": "Halloumi Fries",
+              "description": "Chipotle Tomato Jam",
+              "price": "$9.00"
+            },
+            {
+              "item": "Crispy Soy Ginger Pork Belly",
+              "description": "Miso Aioli, Crushed Wasabi Peas",
+              "price": "$10.00"
+            },
+            {
+              "item": "Chicken & Roasted Jalapeño Rangoons",
+              "description": "Sweet Chili",
+              "price": "$10.00"
+            }
+          ]
+        },
+        {
+          "course": "Appetizers",
+          "items": [
+            {
+              "item": "Sautéed Mussels",
+              "description": "Shaved White Onion, Jalapeño, Cilantro, Roasted Garlic & Tomato Crostini",
+              "price": "$15.00"
+            },
+            {
+              "item": "Black Kale & Brussel Sprout Salad",
+              "description": "Crispy Bacon, Toasted Pepitas, Avocado, Fried Duck Egg",
+              "price": "$15.00"
+            },
+            {
+              "item": "Organic Local Greens",
+              "description": "Cranberries, Bleu, Baby Heirloom Tomatoes, Crispy Applewood Smoked Bacon, House-Made Buttermilk Ranch",
+              "price": "$13.00",
+              "addons": [
+                {
+                  "addon": "Grilled Organic Chicken Breast",
+                  "price": "$5.00"
+                }
+              ]
+            },
+            {
+              "item": "Charred Caesar Salad",
+              "description": "Croutons, White Anchovies",
+              "price": "$13.00",
+              "addons": [
+                {
+                  "addon": "Grilled Organic Chicken Breast",
+                  "price": "$5.00"
+                }
+              ]
+            },
+            {
+              "item": "Chicken Wings",
+              "description": "House-Made Hot Sauce, Blue Cheese",
+              "price": "$13.00"
+            }
+          ]
+        },
+        {
+          "course": "Entrees",
+          "items": [
+            {
+              "item": "Today's Grilled Pizza",
+              "description": "Pepperoni, Baby Heirloom Tomatoes, Goat Cheese, House-Made Hot Honey",
+              "price": "$15.00"
+            },
+            {
+              "item": "Spicy Tomato Bisque",
+              "description": "Grilled Cheese Panini",
+              "price": "$13.00"
+            },
+            {
+              "item": "8 oz. Grass-Fed Burger",
+              "description": "Swiss, Blue, Vermont Cheddar, Hand-Cut French Fries",
+              "price": "$6.00",
+              "addons": [
+                {
+                  "addon": "Fired Organic Duck Egg",
+                  "price": "$3.00"
+                },
+                {
+                  "addon": "Applewood Smoked Bacon",
+                  "price": "$2.00"
+                }
+              ]
+            },
+            {
+              "item": "Pressed Italian",
+              "description": "Genoa Salami, Capicola, Soppressata, Roasted Red Pepper Relish, Creamy Hot Dijon, Hand-Cut Fries",
+              "price": "$18.00"
+            },
+            {
+              "item": "Grilled Organic Chicken Sandwich",
+              "description": "Vermont Cheddar, Roasted Garlic Mayo, Hand-Cut French Fries",
+              "price": "$16.00",
+              "addons": [
+                {
+                  "addon": "Fired Organic Duck Egg",
+                  "price": "$3.00"
+                },
+                {
+                  "addon": "Applewood Smoked Bacon",
+                  "price": "$2.00"
+                }
+              ]
+            },
+            {
+              "item": "Cuban Panini",
+              "description": "Braised Pork, Ham, Pickles, Swiss, Mustard, Hand-Cut French Fries",
+              "price": "$18.00"
+            },
+            {
+              "item": "Hand-Made Crispy Chive Gnocchi",
+              "description": "Asparagus, English Peas, Meyer Lemon Crème, Fresh Basil, Herbed Panko, Pecorino",
+              "price": "$23.00"
+            },
+            {
+              "item": "Bison Bolognese",
+              "description": "Pecorino Cheese, Aged Balsamic, Fresh Linguine",
+              "price": "$24.00"
+            },
+            {
+              "item": "Pan-Seared Faroe Island Salmon",
+              "description": "Shaved Snap Peas, Coconut & Lemongrass Risotto, Sesame Ginger Vinaigrette",
+              "price": "$28.00"
+            },
+            {
+              "item": "Pan Roasted Cod",
+              "description": "Potato Scallion Pancake, Shallot Cream Sauce",
+              "price": "$28.00"
+            },
+            {
+              "item": "Organic Grass-Fed Hanger Steak Frites",
+              "description": "Watercress, Madeira Sauce",
+              "price": "$29.00"
+            },
+            {
+              "item": "Kid’s Grilled Cheese",
+              "description": "Hand-Cut French Fries",
+              "price": "$10.00"
+            },
+            {
+              "item": "Kid’s Cheese Pizza",
+              "description": "",
+              "price": "$12.00"
+            },
+            {
+              "item": "Kid’s Pasta",
+              "description": "Red Sauce or Butter & Cheese",
+              "price": "$10.00"
+            }
+          ]
+        },
+        {
+          "course": "Sides",
+          "items": [
+            {
+              "item": "Hand-Cut Truffle Fries",
+              "description": "Roasted Garlic Mayo",
+              "price": "$9.00"
+            },
+            {
+              "item": "Hand-Cut French Fries",
+              "description": "",
+              "price": "$8.00"
+            },
+            {
+              "item": "Shredded Brussel Sprouts",
+              "description": "",
+              "price": "$8.00"
+            },
+            {
+              "item": "Pan Roasted Cauliflower",
+              "description": "Capers",
+              "price": "$8.00"
+            },
+            {
+              "item": "Coconut & Lemongrass Risotto",
+              "description": "Snap Peas",
+              "price": "$9.00"
+            },
+            {
+              "item": "Organic Local Greens",
+              "description": "Pepitas, Dill Ranch",
+              "price": "$9.00"
+            }
+          ]
+        },
+        {
+          "course": "Today's Specials",
+          "items": [
+            {
+              "item": "Local Ricotta, Grilled Corn & Hot Italian Sausage Croquettes",
+              "description": "House-Made Hot Honey",
+              "price": "$10.00"
+            },
+            {
+              "item": "Chipotle Pulled Chicken Enchiladas",
+              "description": "Spicy Roja Sauce, Tomatillo Verde, Fresh Arugula & Pickled Red Onion Salad, Roasted Pepitas, Queso Fresco",
+              "price": "$23.00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
