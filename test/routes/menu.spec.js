@@ -27,8 +27,17 @@ describe('menu.js', () => {
       .expect('Content-Type', /json/)
       .expect(200)
       .then((response) => {
-        expect(response.body).to.eql(menu.meals.filter(meal => meal.meal === 'Dinner'))
+        expect(response.body).to.eql(menu.meals.find(meal => meal.meal === 'Dinner'))
       })
   })
 
+  it('return the dinner menu when GET /menu/lunch is called', () => {
+    return request
+      .get('/menu/lunch')
+      .expect('Content-Type', /json/)
+      .expect(200)
+      .then((response) => {
+        expect(response.body).to.eql(menu.meals.find(meal => meal.meal === 'Lunch'))
+      })
+  })
 })
