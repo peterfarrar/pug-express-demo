@@ -5,6 +5,7 @@ const session = require('express-session')
 const cors = require('cors')
 const { port, corsOptions, sessionSecret } = require('../options')
 const routes = require('./routes/index')
+const path = require('node:path')
 
 const app = express()
 app.set('views', './src/views')
@@ -18,6 +19,7 @@ app.use(session({
   saveUninitialized: true,
   secret: sessionSecret
 }))
+app.use(express.static(path.join(__dirname, '../public')))
 
 app.get('/ping', (req, res) => {
   res.send("pong")
