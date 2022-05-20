@@ -10,4 +10,12 @@ router.get('/', (req, res) => {
   res.render('index', dinner)
 })
 
+router.get('/lunch', (req, res) => {
+  res.render('index', lunch)
+})
+
+router.get('/dinner', (req, res) => {
+  res.render('index', dinner)
+})
+
 module.exports = router
