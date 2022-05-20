@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Dinner
+  body
+    main 
+      h2= meal
+      each course in courses
+        h3= course.course
+        table 
+          thead 
+            tr
+              th Item
+              th Description
+              th Price
+          tbody 
+            each item in course.items 
+              tr
+                th= item.item
+                th= item.description
+                th= item.price

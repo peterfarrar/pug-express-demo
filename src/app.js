@@ -7,6 +7,9 @@ const { port, corsOptions, sessionSecret } = require('../options')
 const routes = require('./routes/index')
 
 const app = express()
+app.set('views', './src/views')
+app.set('view engine', 'pug')
+
 app.use(cors(corsOptions))
 app.use(bodyParser.json())
 app.use(logger('dev'))
@@ -21,8 +24,14 @@ app.get('/ping', (req, res) => {
 })
 
 app.use('/menu', routes.menu)
+app.use('/', routes.html)
+// app.use('/', (req, res) => {
+//   res.render('index', { message: "Hello" })
+// })
+
 const server = app.listen(port, () => {
   console.log(`server running on port ${port}`)
 })
+
 
 module.exports = server
