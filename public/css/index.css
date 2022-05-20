@@ -1,4 +1,44 @@
 :root {
-  color: white;
-  background-color: black;
+  margin: auto;
+  color: #eee;
+  background-color: #312;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+}
+
+h1 {
+  margin-block: 3rem;
+}
+
+h2 {
+  margin-block: 2rem;
+}
+
+table:last-child {
+  margin-block-end: 6.25rem;
+}
+
+thead th {
+  text-decoration: underline;
+  padding-block-end: 1rem;
+}
+
+tbody td {
+  height: 2.4rem;
+  line-height: 1.2rem;
+}
+
+th.item {
+  width: 30%;
+  text-align: start;
+}
+
+th.description {
+  width: 100%;
+  text-align: start;
+}
+
+th.price {
+  width: 10%;
+  text-align: start;
 }

@@ -5,18 +5,18 @@ html
     link(rel="stylesheet" href="/css/index.css")
   body
     main 
-      h2= meal
+      h1(class='mealheader')= meal
       each course in courses
-        h3= course.course
+        h2(class='courseheader')= course.course
         table 
           thead 
             tr
-              th Item
-              th Description
-              th Price
+              th(class='item') Item
+              th(class='description') Description
+              th(class='price') Price
           tbody 
             each item in course.items 
               tr
-                th= item.item
-                th= item.description
-                th= item.price
+                td(class='item')= item.item
+                td(class='description')= item.description
+                td(class='price')= item.price

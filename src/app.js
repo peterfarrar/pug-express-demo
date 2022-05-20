@@ -27,9 +27,6 @@ app.get('/ping', (req, res) => {
 
 app.use('/menu', routes.menu)
 app.use('/', routes.html)
-// app.use('/', (req, res) => {
-//   res.render('index', { message: "Hello" })
-// })
 
 const server = app.listen(port, () => {
   console.log(`server running on port ${port}`)
