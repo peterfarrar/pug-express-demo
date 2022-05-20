@@ -1,8 +1,7 @@
-const app = require('../../src/app')
 const fs = require('fs')
+const app = require('../../src/app')
 
-const renderedHtml = fs.readFileSync('./test/fixtures/index.html')
-// const renderedHtml = fs.readFileSync('../fixtures/index.html')
+const renderedHtml = fs.readFileSync('./test/fixtures/index.html').toString()
 
 describe('html.js', () => {
   let request
@@ -20,7 +19,9 @@ describe('html.js', () => {
       .expect('Content-Type', /html/)
       .expect(200)
       .then((response) => {
-        expect(response.body).to.eql(renderedHtml)
+        const actual = response.text.toString().replace(/\s+/g, '')
+        const expected = renderedHtml.replace(/\s+/g, '')
+        expect(actual).to.eq(expected)
       })
   })
 })
