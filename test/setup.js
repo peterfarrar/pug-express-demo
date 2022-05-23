@@ -1,15 +1,11 @@
-const app = require('../src/app')
+exports.mochaGlobalSetup = () => {
+  this.server = require('../src/app')
+  global.chai = require('chai')
+  global.expect = global.chai.expect
+  global.request = require('supertest')(this.server)
+}
 
-exports.mochaHooks = {
-  beforeAll: [(done) => {
-    global.chai = require('chai')
-    global.expect = global.chai.expect
-    global.supertest = require('supertest')
-    global.request = global.supertest(app)
-    done()
-  }],
-  afterAll: [(done) => {
-    app.close()
-    done()
-  }]
+exports.mochaGlobalTeardown = () => {
+  this.server.close()
+  console.log('server stopped.')
 }
