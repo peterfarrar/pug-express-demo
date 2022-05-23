@@ -6,7 +6,7 @@
   "scripts": {
     "start": ". config/local.sh && node src/app.js",
     "dev": ". config/local.sh && nodemon src/app.js",
-    "test": ". config/test.sh && nyc mocha --reporter=html  --reporter spec --recursive --colors --timeout 20000"
+    "test": ". config/test.sh && nyc mocha --require test/setup.js --reporter=html  --reporter spec --recursive --colors --timeout 20000"
   },
   "keywords": [],
   "author": "",
