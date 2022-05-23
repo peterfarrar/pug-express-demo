@@ -1,17 +1,12 @@
-const { after } = require('mocha')
+const app = require('../src/app')
 
-beforeEach(() => {
+before(() => {
   global.chai = require('chai')
   global.expect = global.chai.expect
   global.supertest = require('supertest')
-})
-
-/*
-afterEach(() => {
-  // reset anything you need to reset
+  global.request = global.supertest(app)
 })
 
 after(() => {
-  // reset after testing is complete
+  app.close()
 })
-*/

@@ -1,20 +1,10 @@
 const fs = require('fs')
-const app = require('../../src/app')
 
 const renderedHtml = fs.readFileSync('./test/fixtures/index.html').toString()
 const renderedLunchHtml = fs.readFileSync('./test/fixtures/index-lunch.html').toString()
 const renderedDinnerHtml = fs.readFileSync('./test/fixtures/index-dinner.html').toString()
 
 describe('html.js', () => {
-  let request
-  before(() => {
-    request = supertest(app)
-  })
-
-  after(() => {
-    app.close()
-  })
-
   it('return rendered page when GET / is called', () => {
     return request
       .get('/')

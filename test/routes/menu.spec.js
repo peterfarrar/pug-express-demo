@@ -1,16 +1,6 @@
-const app = require('../../src/app')
 const menu = require('../../db/menu.json')
 
 describe('menu.js', () => {
-  let request
-  before(() => {
-    request = supertest(app)
-  })
-  
-  after(() => {
-    app.close()
-  })
-
   it('return full menu when GET /menu is called', () => {
     return request
       .get('/menu')
